@@ -2,7 +2,7 @@ from socket import *
 import sys 
 import threading
 from multiprocessing import connection
-#Prepare a sever socket
+#Prepare a server socket
 serverSocket = socket(AF_INET, SOCK_STREAM)
 serverSocket.bind(('192.168.2.55', 11000))
 serverSocket.listen(7)
