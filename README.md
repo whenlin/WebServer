@@ -1,2 +1,2 @@
 # WebServer
-HTTP Web Server written in python
+HTTP Web Server and Client written in python
